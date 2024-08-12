@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: orange;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+ul ,li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    
+}
+header{
+    background: url(https://i.pinimg.com/564x/8a/22/de/8a22de00e9a9e5b5ea6ef960d2ea72ba.jpg);
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    
+}
+header a{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+section{
+    display: flex;
+    height: 80vh;
+
+}
+aside{
+    background: blueviolet;
+    flex: 0.2;
+}
+main{
+    background: rgb(179, 201, 57);
+    flex: 0.8;
+
+}
+footer{
+    background: gold;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.vdo1{
+    display: flex;
+    display: flex;
+  
+    margin: 20px;
+   
+
+}
+
+.vdo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
